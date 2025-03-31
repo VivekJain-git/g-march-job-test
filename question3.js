@@ -45,3 +45,21 @@
     "$sort": { "store": 1, "month": 1 }
   }
 ]
+
+
+
+// Expected Output (Corrected based on item quantities and prices):
+// [
+//     {
+//         "store": "Store A",
+//         "month": "2024-06",
+//         "totalRevenue": 110.0,
+//         "averagePrice": 15.0
+//     },
+//     {
+//         "store": "Store B",
+//         "month": "2024-06",
+//         "totalRevenue": 150.0,
+//         "averagePrice": 12.5
+//     }
+// ]
